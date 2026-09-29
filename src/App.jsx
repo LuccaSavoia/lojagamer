@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/jogos" element={<Jogos />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <footer />
+        <Footer />
       </div>
     </Router>
   )
